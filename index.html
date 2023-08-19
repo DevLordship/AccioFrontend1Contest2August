@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Library System</title>
+</head>
+<body>
+
+        <nav id="navbar">
+            <h1 id="logo"><a href="index.html">Library System</a></h1>
+            <ul id="nav-menu">
+                <li class="nav-list"><a href="#page-1" class="nav-link">Books</a></li>
+                <li class="nav-list"><a href="#page-2" class="nav-link">Register</a></li>
+            </ul>
+        </nav>
+
+    <section id="page-1">
+        <div class="container">
+            <h1 class="page-title">Books</h1>
+            <table id="book-info">
+            <tr>
+                <th class="table-head">Book ID</th>
+                <th class="table-head">Title</th>
+                <th class="table-head">Author</th>
+                <th class="table-head">Genre</th>
+                <th class="table-head">Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="https://www.amazon.in/Laws-Power-Robert-Greene-Collection/dp/1861972784#:~:text=%22The%2048%20Laws%20of%20Power,human%20behavior%20and%20social%20dynamics." target="_blank" class="book-title"> The 48 Laws of Power</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication : 1998</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:480
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:9781861972781
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Robert Greene</td>
+                <td>  Political Theory , Society & Culture</td>
+                <td>Available</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td >
+                    <a href="https://www.amazon.in/Code-Language-Computer-Hardware-Software/dp/0137909101/ref=sr_1_1?crid=15XYJE2B7SF53&keywords=code+charles+petzold&qid=1692464031&s=books&sprefix=code+charls+petzold%2Cstripbooks%2C299&sr=1-1" target="_blank" class="book-title">Code</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:2022</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:480
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:978-0137909100
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Charles Petzold </td>
+                <td>Software Architecture , Introductory & Beginning Programming</td>
+                <td>Available</td>
+            </tr><br>
+            
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="https://www.amazon.in/Pragmatic-Programmer-Anniversary-journey-mastery/dp/9353949432/ref=sr_1_1?crid=3AVHJX3M259F&keywords=pragmatic+programmer&qid=1692464243&s=books&sprefix=pragmatic+programmwer%2Cstripbooks%2C306&sr=1-1" target="_blank" class="book-title">The Pragmatic Programmer</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:2019</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:321
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:978-9353949433
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>David Thomas</td>
+                <td>Programming Languages</td>
+                <td>Not Available</td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td>
+                    <a href="https://www.amazon.in/Hundred-Little-Flames-Preeti-Shenoy/dp/9356293546/ref=sr_1_1?crid=1MYST0CJOV93Z&keywords=hundred+flames&qid=1692464362&s=books&sprefix=hundred+flames%2Cstripbooks%2C280&sr=1-1" target="_blank" class="book-title">A Hundred Little Flames</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:2022</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:372
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN: 978-9356293540
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td> Preeti Shenoy</td>
+                <td>Mystery, Young Adult</td>
+                <td>Available</td>
+            </tr>
+    
+            <tr>
+                <td>5</td>
+                <td>
+                    <a href="https://www.amazon.in/Norwegian-Wood-Haruki-Murakami/dp/0099448823/ref=sr_1_1?crid=266LRU0EHEY41&keywords=norwegian+wood&qid=1692464382&s=books&sprefix=norwegian+woo%2Cstripbooks%2C311&sr=1-1" target="_blank" class="book-title">Norwegian Wood</a>
+                    <table class="title-table">
+                        <tr>
+                            <td>Publication Date:2001</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Page Count:400
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ISBN:9780099448822
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td> Haruki Murakami</td>
+                <td>Young Adult, Romance</td>
+                <td>Not Available</td>
+            </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="page-2">
+        <div class="container">
+            <h1 class="page-title">Register</h1>
+
+            <form action="#" method="POST">
+                <label class="form-label" for="first_name">First Name:</label>
+                <input class="form-input" type="text" id="first_name" placeholder="First Name" required>
+                <br>
+                <label class="form-label" for="last_name">Last Name:</label>
+                <input class="form-input" type="text" id="last_name" placeholder="Last Name" required>
+                <br>
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" type="email" id="email" placeholder="example@gmail.com" required>
+                <br>
+                <label class="form-label" for=dob">Date Of Birth:</label>
+                <input class="form-input" type="date" id="dob" required>
+                <br>
+                <label class="form-label" for="age">Age:</label>
+                <input class="form-input" type="number" id="age" min="5" max="100" placeholder="Age" required>
+                <br>
+                <label class="form-label" for="password">Password:</label>
+                <input class="form-input" type="password" id="password" placeholder="Password" required>
+                <br>
+                <label class="form-label" for="confirm-password">Confirm Password:</label>
+                <input class="form-input" type="password" id="confirm-password" minlength="6" maxlength="8" placeholder="Confirm Password" required>
+
+                <button class="form-btn" type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html> 
